@@ -124,7 +124,7 @@
         </div>
       </div>
 
-      <div class="jumbotron" style="background: #0091DC; color: #B2C2E7">
+      <div class="jumbotron" style="background: #0091DC; color: #B2C2E7; height: 10px; padding-bottom: 35px; padding-top: 10px;">
         <p class="text-center">© 2017 All Rights Reserved. Riyasewana.LK.
       </div>
 
