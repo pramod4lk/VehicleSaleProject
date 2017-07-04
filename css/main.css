@@ -26,3 +26,7 @@
 ::-webkit-input-placeholder {
    text-align: center;
 }
+
+.btn {
+  width:30%;
+}
