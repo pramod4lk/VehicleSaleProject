@@ -95,10 +95,9 @@
             <form action="LoginAction.php" method="POST">
               <div class="form-group">
                 <label>Email</label>
-                <input type="text" name="email" class="form-control" placeholder="Enter Email / Username"><br>
-                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br><br> -->
+                  <input type="text" name="email" class="form-control" id="textCenter" placeholder="Enter Email / Username" style="text-align: center;"><br>
                 <label>Password</label>
-                <input type="password" name="password" class="form-control" placeholder="Enter Password"><br>
+                <input type="password" name="password" class="form-control" placeholder="Enter Password" style="text-align: center;"><br>
                 <input type="submit" class="btn btn-info btn-lg"value="Signin">
               </div>
             </form>
@@ -110,12 +109,11 @@
             <form action="RegisterAction.php" method="POST">
               <div class="form-group">
                 <div class="text-center"><label>Full Name</label></div>
-                <input type="text" name="name" class="form-control" placeholder="Enter Full Name"><br>
+                <input type="text" name="name" class="form-control" placeholder="Enter Full Name" style="text-align: center;"><br>
                 <div class="text-center"><label>Email</label></div>
-                <input type="text" name="email" class="form-control" placeholder="Enter Email"><br>
-                <!-- <div class="text-center"><small class="form-text text-muted">We'll never share your email with anyone else.</small></div><br> -->
+                  <input type="text" name="email" class="form-control" placeholder="Enter Email" style="text-align: center;"><br>
                 <div class="text-center"><label>Password</label></div>
-                <input type="password" name="password" class="form-control" placeholder="Enter Password"><br>
+                <input type="password" name="password" class="form-control" placeholder="Enter Password" style="text-align: center;"><br>
                 <input type="reset" class="btn btn-warning btn-lg"value="Reset">
                 <input type="submit" class="btn btn-info btn-lg"value="Submit" style="float: right";>
               </div>
@@ -124,9 +122,9 @@
         </div>
       </div>
 
-      <div class="jumbotron" style="background: #0091DC; color: #B2C2E7; height: 10px; padding-bottom: 35px; padding-top: 10px;">
-        <p class="text-center">© 2017 All Rights Reserved. Riyasewana.LK.
-      </div>
+      <div class="jumbotron" style="background: #0091DC; color: #B2C2E7; height: 10px; padding-bottom: 35px; padding-top: 10px;"> <!-- Start of Footer -->
+        <p class="text-center">© 2017 All Rights Reserved. Riyasewana.LK.</p>
+      </div> <!-- End of Footer -->
 
     </div> <!-- End of Main Container -->
 
