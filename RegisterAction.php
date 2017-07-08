@@ -22,7 +22,19 @@
     $password = $_POST["password"];
 
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $con = mysqli_connect("localhost", "root", "", "vehiclesaledb");
+      if (($con)) {
+          $sql = "INSERT INTO member (name, email, password, joindate)" . "VALUES('$name', '$email', '$password', NOW())";
+          if (mysqli_query($con, $sql)) {
+            echo "<h1>Saved Registration Data!</h1>";
+          } else {
+            echo "Error: " . mysqli_error($con);
+          }
+      }else {
+        echo "<h1>Connection Failed!</h1>";
+      }
     }else {
+      echo "<h1>Invalid Email!</h1>";
     }
 
    ?>
